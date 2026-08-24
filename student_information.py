@@ -29,6 +29,10 @@ print("Age                        : " + age)
 print("Favourite Language         : " + favourite_language)
 print("Generated Username         : " + username)
 print("Generated Email            : " + email)
+profile_id = "UG-" + student_id + "-" + level
+print("Student Profile ID         : " + profile_id)
 print()
 print(border)
 
+# Part C Branch: Generate a unique student profile ID using string concatenation
+print("Student Profile ID         : " + profile_id)
