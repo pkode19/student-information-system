@@ -9,3 +9,26 @@ favourite_language = input("Enter your favourite programming language: ")
 # Generate student username and email using string concatenation
 username = full_name[:3].lower() + student_id
 email = username + "@st.ug.edu.gh"
+
+
+# Build the border using string concatenation
+border_part = "=========="
+border = border_part + border_part + border_part + border_part
+
+# Display student information
+print()
+print(border)
+print("       STUDENT INFORMATION SYSTEM")
+print(border)
+print()
+print("Full Name                  : " + full_name)
+print("Student ID                 : " + student_id)
+print("Programme                  : " + programme)
+print("Level                      : " + level)
+print("Age                        : " + age)
+print("Favourite Language         : " + favourite_language)
+print("Generated Username         : " + username)
+print("Generated Email            : " + email)
+print()
+print(border)
+
